@@ -70,15 +70,15 @@ header{
     max-width: 600px;
 }
 
-.home-content h3{
+/* .home-content h3{ 
     font-size: 32px;
     font-weight: 700;
     animation: slideRight 1s ease forwards;
-    animation-delay: .7s;
-}
-.home-content h3 span{
+    /* animation-delay: .7s; 
+/* } */
+/* .home-content h3 span{ 
     color: #0ef;
-}
+ } */
 .home-content h3:nth-of-type(2){
     margin-bottom: 30px;
     animation: slideTop is ease forwards;
@@ -152,21 +152,24 @@ header{
 
 .about{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr); 
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.5rem; 
 
 }
 
 .about-img{
-    margin-top: 140px;
-    margin-left: 114px;
+     margin-top: 140px; 
+    margin-left: 114px; 
+  
 }
 .about-img img{
     padding-bottom: 20%;
-    max-width: 630px;
+    max-width: 500px;
     height: auto;
     width: 400px;
+    border-radius: 20px;
     
 
 }
@@ -557,7 +560,7 @@ section{
     margin-bottom: 2rem;
 }
 
-.contct-list{
+.contact-list{
     margin-bottom: 3rem;
 }
 .contact-list li{
@@ -598,7 +601,7 @@ section{
     outline: none;
     width: 90%;
     padding: 18px;
-    background: grey;
+    background: white;
     color: black;
     font-size: 1rem;
     font-weight: 600;
