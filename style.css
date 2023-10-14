@@ -8,7 +8,14 @@ body{
     color: white;
     background: #081b29;
 }
-header{
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 20px;
+}
+header{ 
     position: fixed;
     top: 0;
     left: 0;
@@ -51,8 +58,9 @@ header{
 
 .navbar a:hover{
     color: aqua;
-}
+ } 
 .home{
+    display: flex;
     position: relative;
     width: 100%;
     justify-content: space-between;
@@ -149,6 +157,9 @@ header{
    
 }
 
+#about{
+    display: flex;
+}
 
 .about{
     grid-template-columns: repeat(2, 1fr); 
@@ -197,7 +208,7 @@ header{
 }
 
 #services{
-    
+    display: flex;
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
@@ -215,6 +226,14 @@ header{
 
 .container{
     padding: 90px;
+}
+
+#skills{
+    display: flex;
+}
+
+.container1{
+    display: flex;
 }
 .services-list{
     display: grid;
@@ -456,7 +475,7 @@ section{
     color: #0ef;
 }
 .portfolio-content{
-    display: grid;
+    display: grid; 
     /* grid-template-columns: repeat(auto-fit, minmax(350px, auto)); */
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
@@ -672,6 +691,10 @@ input.bbtn-box[type="submit"]:hover {
     border: 3px solid black;
 }
 
+@media screen and (max-width: 56.25em){
+    ham
+
+}
 
 
 
