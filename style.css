@@ -162,6 +162,11 @@ header{
 
 }
 
+
+.about-text{
+    margin: 10px 50px;
+}
+
 .about-img{
     
      margin-top: 140px; 
@@ -170,10 +175,12 @@ header{
 }
 .about-img img{
     padding-bottom: 20%;
-    max-width: 500px;
-    height: auto;
-    width: 400px;
-    border-radius: 20px;
+    /* max-width: 500px; */
+    height: 369px; 
+    width: 269px; 
+align-items: center;   
+    /* border-radius: 50%; */
+    
     
 
 }
