@@ -10,7 +10,7 @@ body{
     background: #081b29;
 }
 
-.navbar{
+/* .navbar{ 
     display: flex;
     justify-content: space-between;
     text-decoration: none;
@@ -59,7 +59,30 @@ header{
 
 .navbar a:hover{
     color: aqua;
- } 
+ }  */
+
+.navbar{
+ background-color: #081b29;
+}
+
+ a{
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    list-style: none;
+    color: white;
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+
+ }
+ a:hover{
+    color: aqua;
+ }
+
 .home{
     position: relative;
     width: 100%;
